@@ -3,8 +3,9 @@
 
 *.iml
 
-# IntelliJ folder
+# IntelliJ folders
 .idea
+target
 
 # User-specific stuff:
 .idea/workspace.xml
