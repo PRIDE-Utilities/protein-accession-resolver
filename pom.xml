@@ -41,8 +41,8 @@
                 <filtering>true</filtering>
             </resource>
         </resources>
-
-        <plugins>
+        <!-- I don't see this plugin being used or affecting in any way the packaging process of this artifact -->
+        <!-- <plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>buildnumber-maven-plugin</artifactId>
@@ -64,8 +64,7 @@
                     </items>
                 </configuration>
             </plugin>
-
-        </plugins>
+        </plugins> -->
 
     </build>
 
@@ -77,6 +76,7 @@
             <version>${uk.ac.ebi.pride.architectural-pride-logging.version}</version>
         </dependency>
     </dependencies>
+
 
 </project>
 
