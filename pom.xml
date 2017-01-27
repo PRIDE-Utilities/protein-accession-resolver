@@ -77,6 +77,12 @@
         </dependency>
     </dependencies>
 
+    <scm>
+        <connection>scm:git:https://github.com/PRIDE-Utilities/protein-accession-resolver.git</connection>
+        <developerConnection>scm:git:https://github.com/PRIDE-Utilities/protein-accession-resolver.git</developerConnection>
+        <url>https://github.com/PRIDE-Utilities/protein-accession-resolver.git</url>
+        <tag>HEAD</tag>
+    </scm>
 
 </project>
 
