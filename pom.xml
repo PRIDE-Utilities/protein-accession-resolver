@@ -9,6 +9,12 @@
     <name>Accession Resolver</name>
     <description>Package to clean up submitted accessions into something that makes sense</description>
 
+    <parent>
+        <groupId>uk.ac.ebi.pride.architectural</groupId>
+        <artifactId>pride-core</artifactId>
+        <version>1.0.1</version>
+    </parent>
+
     <build>
 
         <resources>
