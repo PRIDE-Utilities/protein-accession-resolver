@@ -4,7 +4,7 @@
     <groupId>uk.ac.ebi.pride.tools</groupId>
     <artifactId>accession-resolver</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.4-SNAPSHOT</version>
+    <version>1.0.4</version>
     <name>Accession Resolver</name>
     <description>Package to clean up submitted accessions into something that makes sense</description>
 
@@ -80,7 +80,7 @@
         <connection>scm:git:https://github.com/PRIDE-Utilities/protein-accession-resolver.git</connection>
         <developerConnection>scm:git:https://github.com/PRIDE-Utilities/protein-accession-resolver.git</developerConnection>
         <url>https://github.com/PRIDE-Utilities/protein-accession-resolver.git</url>
-        <tag>HEAD</tag>
+        <tag>accession-resolver-1.0.4</tag>
     </scm>
 
 </project>
