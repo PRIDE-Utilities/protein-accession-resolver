@@ -1,6 +1,7 @@
 package uk.ac.ebi.pride.tools.utils;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.HashSet;
 import java.util.regex.Matcher;
@@ -13,7 +14,7 @@ import java.util.regex.Pattern;
  */
 public class AccessionResolver {
 
-    private static Logger logger = Logger.getLogger(AccessionResolver.class);
+    private static Logger logger = LoggerFactory.getLogger(AccessionResolver.class);
 
     //GI patterm
     private static final Pattern GI_PATTERN = Pattern.compile("^(GI)? ?\\|? ?([0-9]+)(\\|)?.*");

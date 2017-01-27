@@ -81,9 +81,10 @@
 
     <dependencies>
         <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.13</version>
+            <groupId>uk.ac.ebi.pride.architectural</groupId>
+            <artifactId>pride-logging</artifactId>
+            <type>pom</type>
+            <version>${uk.ac.ebi.pride.architectural-pride-logging.version}</version>
         </dependency>
     </dependencies>
 
